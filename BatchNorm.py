@@ -1,5 +1,6 @@
 import paddle
 import paddle.nn as nn
+import paddle.nn.functional as F
 
 class ConvBNLayer(paddle.nn.Layer):
     def __init__(self,
