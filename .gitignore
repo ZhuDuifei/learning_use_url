@@ -1,1 +1,14 @@
-/mat.pth
+#忽略指定的文件
+mat.pth
+
+#忽略某些后缀结尾的
+*.png
+*.pth
+*.log
+
+#忽略目录
+ignore_version/
+
+#忽略目录的某个文件
+ignore_version2/*.pad
+
